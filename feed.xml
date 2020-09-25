@@ -1,21 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-23T11:41:57-07:00</updated><id>/feed.xml</id><entry><title type="html">Kiwifruit</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00-07:00</published><updated>2018-08-22T00:00:00-07:00</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-25T11:19:03-07:00</updated><id>/feed.xml</id><entry><title type="html">Gsod2020</title><link href="/2020/07/31/GSoD2020.html" rel="alternate" type="text/html" title="Gsod2020" /><published>2020-07-31T00:00:00-07:00</published><updated>2020-07-31T00:00:00-07:00</updated><id>/2020/07/31/GSoD2020</id><content type="html" xml:base="/2020/07/31/GSoD2020.html">&lt;h1 id=&quot;developing-matplotlib-entry-paths-proposal&quot;&gt;Developing Matplotlib Entry Paths Proposal&lt;/h1&gt;
 
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
-hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
-diameter). It has a fibrous, dull greenish-brown skin and bright green or
-golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Apples</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00-07:00</published><updated>2018-08-21T00:00:00-07:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">Bananas</title><link href="/2018/08/20/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00-07:00</published><updated>2018-08-20T00:00:00-07:00</updated><id>/2018/08/20/bananas</id><content type="html" xml:base="/2018/08/20/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
+&lt;p&gt;Matplotlib’s project suggestion for this year’s Google Season of Docs involves creating content &lt;br /&gt;
+that helps introduce Matplotlib to new users. For Developing Matplotlib Entry Paths, I propose &lt;br /&gt;
+an alternative approach to that of current documentation. I am a new technical writer to the &lt;br /&gt;
+industry; however, my background is in education and education-adjacent fields. Technical writing &lt;br /&gt;
+and education have strong parallels that focus on producing content that empathizes and enables &lt;br /&gt;
+users to accomplish their tasks with the resources provided.&lt;/p&gt;
 
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry></feed>
+&lt;p&gt;In this context, the Matplotlib documentation would benefit with improvement to empathizing with&lt;br /&gt;
+new users. Much of the material at the moment consists of randomized data and unlabeled visuals. &lt;br /&gt;
+These are excellent for quickly displaying the visuals and the features of Matplotlib. However, &lt;br /&gt;
+for the use case of someone new to Matplotlib, it is challenging to traverse the transformation &lt;br /&gt;
+of data to visuals.&lt;/p&gt;
+
+&lt;p&gt;A context in an expository approach is a solution to this obstacle. By writing a procedure through &lt;br /&gt;
+the lens of a real world example, we are demonstrating an understanding of the environment in &lt;br /&gt;
+which a user works. This improves the relationship the documentation and user have in terms of &lt;br /&gt;
+reaching a goal or expectation of accomplishing a task.&lt;/p&gt;
+
+&lt;p&gt;A user has a consistent derived purpose, For example, a data scientist at a shoe company must &lt;br /&gt;
+present customer data to a team to illustrate shopping trends over time. In this situation, the &lt;br /&gt;
+user must learn to navigate Matplotlib and take advantage of the tools within the library to &lt;br /&gt;
+complete the task at hand.&lt;/p&gt;
+
+&lt;p&gt;With additional context to support the documentation, a new user may be more able to identify with &lt;br /&gt;
+the topic. The user’s derived purpose is parallel to the documentation. I hope to work towards the &lt;br /&gt;
+vision that Lead Developer Tom Caswell discussed in an interview in 2017 as &lt;em&gt;“having someone who &lt;br /&gt;
+can actually write and has empathy for users, to go through and basically write a 200-page ‘Intro to &lt;br /&gt;
+Matplotlib’ book, and have that be the main entry to the docs.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-approach-of-expository-writing&quot;&gt;Alternative Approach of Expository Writing&lt;/h2&gt;
+
+&lt;p&gt;The current documentation demonstrates the features of Matplotlib, i.e. the things a user is able to&lt;br /&gt;
+do with the library. For instance, a tutorial often follows the pattern that doesn’t involve an &lt;br /&gt;
+explanation of the underlying method.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;{what the method does} -&amp;gt; {parameters} -&amp;gt; {returns} -&amp;gt; {related links} -&amp;gt; {examples}&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Often with programming documentation and support, a user is recommended to run the code on their own&lt;br /&gt;
+to understand what happens. Although a programming mindset improves a user’s understanding of the topic,&lt;br /&gt;
+the learning curve for transformations has little supporting content. It can be an overwhelming challenge&lt;br /&gt;
+as documentation is limited.&lt;/p&gt;
+
+&lt;p&gt;Providing additional diagrams, images, or other visuals will help to create new learning opportunities. &lt;br /&gt;
+The structure below would also serve well as a template for new content. Also, the point of adding &lt;br /&gt;
+non-textual images or graphics could benefit from features like callouts and coachmarks. There are times &lt;br /&gt;
+where images are harder to navigate without indications of how or where the code is transformed into the &lt;br /&gt;
+output executed. I believe that there is a strong visual element missing that could foster a greater &lt;br /&gt;
+understanding of the topics.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;{method explanation} -&amp;gt; {expository use case/scenario} -&amp;gt; {sample code} -&amp;gt; {parameters} -&amp;gt; &lt;br /&gt;
+{returns} -&amp;gt; {additional examples} -&amp;gt; {informational topic/subject affinity links}&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is massive potential in this alternative approach of using expository writing for documentation. &lt;br /&gt;
+With users seeing a variety of concepts for transformations, they would be able to better identify the &lt;br /&gt;
+underlying strategies of developing visualizations to data. This knowledge can help users innovate and &lt;br /&gt;
+take advantage of the features as presented by examples based in realistic use cases.&lt;/p&gt;
+
+&lt;p&gt;As Matplotlib grows in popularity, consistency in ease of use and approachability are testament to the &lt;br /&gt;
+library’s reputation. These characteristics lend themselves to demonstrate patterns and common strategies &lt;br /&gt;
+that can surface not only within the code, but also within the documentation. If Matplotlib is &lt;br /&gt;
+straightforward and standard for users to program, as evident in its growing use and expanding resources, &lt;br /&gt;
+it can also be that way for technical documentation.&lt;/p&gt;
+
+&lt;p&gt;When users encounter problems, it’s common to use search in order to solve them. Rather than rely on &lt;br /&gt;
+search as the primary method of navigation, it can be more impactful to have users build their own &lt;br /&gt;
+curriculum within the documentation. In this sense, a user searches for a solution to their problem, &lt;br /&gt;
+then when they encounter another problem or would like additional information, they’ll make use of &lt;br /&gt;
+embedded and thorough links throughout.&lt;/p&gt;
+
+&lt;p&gt;This would involve a bottom-up architecture in the organizational system. For every topic within Matplotlib, &lt;br /&gt;
+a rich network of links to subject affinities as well as informational topics would help to build a robust &lt;br /&gt;
+network. Throughout this network, a user would be more likely to continue using the documentation as they &lt;br /&gt;
+navigate to their topic and explore more and more information related to that topic.&lt;/p&gt;
+
+&lt;h2 id=&quot;obstacles&quot;&gt;Obstacles&lt;/h2&gt;
+
+&lt;p&gt;There are always challenges with a project as comprehensive and detailed as this. As a newer technical &lt;br /&gt;
+writer in the industry, I have limited experience using Sphinx and ReST to write documentation. I’m also &lt;br /&gt;
+a beginner when it comes to Matplotlib as well as Git. Tackling these four systems and getting comfortable &lt;br /&gt;
+with using them for collaboration and research will take time. I will need to delegate time during the &lt;br /&gt;
+community bonding phase and earlier to in order to build the necessary foundation for entry level paths. &lt;br /&gt;
+During this time, if I have issues with concepts and fundamentals, I will need to reach out to the community &lt;br /&gt;
+for additional support.&lt;/p&gt;
+
+&lt;p&gt;Coordinating collaborative efforts across time zones and over online platforms will take some adjustment &lt;br /&gt;
+as well. There are a variety of communication avenues that people all throughout the industry use, so it is &lt;br /&gt;
+a matter of making sure I am accessible and approachable in all mediums. I will be transparent in my &lt;br /&gt;
+prioritization of varying expectations throughout. Though I am only just starting out with taking on work &lt;br /&gt;
+such as this in the industry, I am invested in holding myself accountable and being open to feedback and &lt;br /&gt;
+criticism. I feel these qualities are valuable no matter the field.&lt;/p&gt;
+
+&lt;p&gt;Also, increasing usability testing is a section of documentation that I believe would benefit Matplotlib’s &lt;br /&gt;
+entry paths. Conducting surveys for usability regarding the content serves a purpose of providing a profile &lt;br /&gt;
+of a user, i.e. personas. Information such as a user’s experience, their industry, and troubleshooting history &lt;br /&gt;
+are valuable. These pieces help form the language behind the procedure. When writing meets readers at their &lt;br /&gt;
+level, content matures beyond acting as solely instructional.&lt;/p&gt;
+
+&lt;p&gt;Big struggles often lie with creating an ongoing practice of usability testing. It’s far too common to have &lt;br /&gt;
+had a single instance of testing, if done at all, during content development. Regular usability testing helps &lt;br /&gt;
+drive the narrative of the content. It would be my hope to setup a schedule or have recurring usability tests &lt;br /&gt;
+with the Matplotlib community.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I have a little experience using Python as well as Matplotlib in my free time. The amount I’ve taught myself &lt;br /&gt;
+over the last few months was with the support of the current documentation and my own curiosity. There were &lt;br /&gt;
+a handful of videos and mentors I’ve had in that time as well. I’ve still got much to learn and even more room &lt;br /&gt;
+for improvement as I build my own curriculum of programming that I’m interested in.&lt;/p&gt;
+
+&lt;p&gt;After seeing the ideas that Matplotlib and the community have for GSoD, I feel like it would be an excellent &lt;br /&gt;
+growing experience to improve on my skills as a technical writer and get the chance to learn more from the &lt;br /&gt;
+folks behind the scenes. I have felt that this Matplotlib project is both meaningful and something I am &lt;br /&gt;
+passionate about in ideology.&lt;/p&gt;
+
+&lt;p&gt;For working on an overhaul of the usage guide, my goal as a technical writer is to help users accomplish the &lt;br /&gt;
+tasks that they want to without being overwhelmed by the features available. I believe that the best &lt;br /&gt;
+documentation would continue to grow and adapt to users and allow for any user to navigate to their own solutions.&lt;/p&gt;</content><author><name>jerome</name></author><summary type="html">Developing Matplotlib Entry Paths Proposal</summary></entry><entry><title type="html">Uxwriters</title><link href="/2020/06/30/UXWriters.html" rel="alternate" type="text/html" title="Uxwriters" /><published>2020-06-30T00:00:00-07:00</published><updated>2020-06-30T00:00:00-07:00</updated><id>/2020/06/30/UXWriters</id><content type="html" xml:base="/2020/06/30/UXWriters.html">&lt;h1 id=&quot;key-points-from-the-ux-writer-conference-advice-for-new-writers-session&quot;&gt;Key Points from the UX Writer Conference “Advice for New Writers” Session&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Jeremiah Telzrow and I have collaborated on an article highlighting quality&lt;br /&gt;
+advice from industry professionals at this summer’s UX Writer Conference held&lt;br /&gt;
+virtually on June 9th and 10th. We focused on collecting and referencing the&lt;br /&gt;
+suggestions that people had and also developed visuals to make finding that&lt;br /&gt;
+content easier. Getting started in the technical writing field is no easy&lt;br /&gt;
+task, and we felt compelled to share the resources we’ve learned with others&lt;br /&gt;
+who feel the same. You can find the article at Jeremiah’s website below!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://jeremiahtelzrow.wordpress.com/uxwriterconference/&quot;&gt;Key Points from the UX Writer Conference “Advice for New Writers” Session&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>jerome</name></author><summary type="html">Key Points from the UX Writer Conference “Advice for New Writers” Session Jeremiah Telzrow and I have collaborated on an article highlighting quality advice from industry professionals at this summer’s UX Writer Conference held virtually on June 9th and 10th. We focused on collecting and referencing the suggestions that people had and also developed visuals to make finding that content easier. Getting started in the technical writing field is no easy task, and we felt compelled to share the resources we’ve learned with others who feel the same. You can find the article at Jeremiah’s website below!</summary></entry><entry><title type="html">Guillainbarre</title><link href="/2020/05/30/GuillainBarre.html" rel="alternate" type="text/html" title="Guillainbarre" /><published>2020-05-30T00:00:00-07:00</published><updated>2020-05-30T00:00:00-07:00</updated><id>/2020/05/30/GuillainBarre</id><content type="html" xml:base="/2020/05/30/GuillainBarre.html">&lt;h1 id=&quot;guillain-barré-syndrome-website&quot;&gt;Guillain-Barré Syndrome Website&lt;/h1&gt;
+
+&lt;p&gt;I’ve developed varying transformations of documents related to&lt;br /&gt;
+Guillain-Barré Syndrome (GBS) and this is the most recent iteration.&lt;br /&gt;
+This website is officially live and contains a responsive design as&lt;br /&gt;
+well as links to additional external resources. The information is&lt;br /&gt;
+made available for educational and personal use. Take a look at the&lt;br /&gt;
+link below to view the website.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gbs-info.com/&quot;&gt;GBS Info&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>jerome</name></author><summary type="html">Guillain-Barré Syndrome Website</summary></entry><entry><title type="html">Histogram</title><link href="/2020/04/26/Histogram.html" rel="alternate" type="text/html" title="Histogram" /><published>2020-04-26T00:00:00-07:00</published><updated>2020-04-26T00:00:00-07:00</updated><id>/2020/04/26/Histogram</id><content type="html" xml:base="/2020/04/26/Histogram.html">&lt;h1 id=&quot;histogram-of-2019-2020-nba-points&quot;&gt;Histogram of 2019-2020 NBA Points&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;I wrote this code in Python a few weeks ago when the NBA season&lt;br /&gt;
+came to a hiatus. It’s a histogram detailing the teams and their&lt;br /&gt;
+point for totals matched up against their points against totals.&lt;br /&gt;
+The link below contains the code in my Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/jeromefv&quot;&gt;Github&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>jerome</name></author><summary type="html">Histogram of 2019-2020 NBA Points I wrote this code in Python a few weeks ago when the NBA season came to a hiatus. It’s a histogram detailing the teams and their point for totals matched up against their points against totals. The link below contains the code in my Github.</summary></entry><entry><title type="html">Aeropress</title><link href="/2020/03/12/AeroPress.html" rel="alternate" type="text/html" title="Aeropress" /><published>2020-03-12T00:00:00-07:00</published><updated>2020-03-12T00:00:00-07:00</updated><id>/2020/03/12/AeroPress</id><content type="html" xml:base="/2020/03/12/AeroPress.html">&lt;h1 id=&quot;aeropress-inverted-instructional-aid&quot;&gt;AeroPress Inverted Instructional Aid&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;This quick-reference card I developed as a tool to aid people using the AeroPress. For those looking for a great and simple&lt;br /&gt;
+brewing method, the AeroPress opens up many possibilities of amazing coffee with comparable effort to a French press. Using&lt;br /&gt;
+this document, you can cater your preferences of water, coffee, and immersion time to your own taste. You can have this&lt;br /&gt;
+attached with an AeroPress as a gift and know that they’ll be able to perform the task of making a wonderful cup of coffee&lt;br /&gt;
+on their own.&lt;/p&gt;</content><author><name>jerome</name></author><summary type="html">AeroPress Inverted Instructional Aid This quick-reference card I developed as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with comparable effort to a French press. Using this document, you can cater your preferences of water, coffee, and immersion time to your own taste. You can have this attached with an AeroPress as a gift and know that they’ll be able to perform the task of making a wonderful cup of coffee on their own.</summary></entry></feed>
