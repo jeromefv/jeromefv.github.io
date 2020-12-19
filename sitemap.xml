@@ -1,32 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>/2020/03/12/AeroPress.html</loc>
-<lastmod>2020-03-12T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/2020/04/26/Histogram.html</loc>
-<lastmod>2020-04-26T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/2020/05/30/GuillainBarre.html</loc>
-<lastmod>2020-05-30T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/2020/06/30/UXWriters.html</loc>
-<lastmod>2020-06-30T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/2020/07/31/GSoD2020.html</loc>
-<lastmod>2020-07-31T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/about.html</loc>
-</url>
-<url>
-<loc>/</loc>
-</url>
-<url>
-<loc>/posts.html</loc>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-06-30T18:12:29-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-06-30T18:12:29-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/gsod-proposal/</loc>
+    <lastmod>2020-06-30T18:12:29-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/ux-writer-con/</loc>
+    <lastmod>2020-06-30T18:02:44-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/guillain-barre-web/</loc>
+    <lastmod>2020-05-30T17:33:01-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/aeropress-inverted/</loc>
+    <lastmod>2020-03-12T17:26:10-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/guillain-barre-doc/</loc>
+    <lastmod>2020-02-06T11:26:09-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
