@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jerome F. Villegas</title>
-    <link>http://example.org/posts/</link>
+    <link>https://jeromefv.github.io/posts/</link>
     <description>Recent content in Posts on Jerome F. Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 18:12:29 -0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2020 18:12:29 -0800</lastBuildDate><atom:link href="https://jeromefv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSoD 2020: Matplotlib Proposal</title>
-      <link>http://example.org/posts/gsod-proposal/</link>
+      <link>https://jeromefv.github.io/posts/gsod-proposal/</link>
       <pubDate>Tue, 30 Jun 2020 18:12:29 -0800</pubDate>
       
-      <guid>http://example.org/posts/gsod-proposal/</guid>
+      <guid>https://jeromefv.github.io/posts/gsod-proposal/</guid>
       <description>Developing Matplotlib Entry Paths Proposal Introduction Matplotlib’s project suggestion for this year’s Google Season of Docs involves creating content that helps introduce Matplotlib to new users. For Developing Matplotlib Entry Paths, I propose an alternative approach to that of current documentation. I am a new technical writer to the industry; however, my background is in education and education-adjacent fields. Technical writing and education have strong parallels that focus on producing content that empathizes and enables users to accomplish their tasks with the resources provided.</description>
     </item>
     
     <item>
       <title>Key Points from the UX Writer Conference “Advice for New Writers” Session</title>
-      <link>http://example.org/posts/ux-writer-con/</link>
+      <link>https://jeromefv.github.io/posts/ux-writer-con/</link>
       <pubDate>Tue, 30 Jun 2020 18:02:44 -0800</pubDate>
       
-      <guid>http://example.org/posts/ux-writer-con/</guid>
+      <guid>https://jeromefv.github.io/posts/ux-writer-con/</guid>
       <description>Jeremiah Telzrow and I have collaborated on an article highlighting quality advice from industry professionals at this summer’s UX Writer Conference held virtually on June 9th and 10th. We focused on collecting and referencing the suggestions that people had and also developed visuals to make finding that content easier. Getting started in the technical writing field is no easy task, and we felt compelled to share the resources we’ve learned with others who feel the same.</description>
     </item>
     
     <item>
       <title>Guillain-Barré Syndrome Website</title>
-      <link>http://example.org/posts/guillain-barre-web/</link>
+      <link>https://jeromefv.github.io/posts/guillain-barre-web/</link>
       <pubDate>Sat, 30 May 2020 17:33:01 -0800</pubDate>
       
-      <guid>http://example.org/posts/guillain-barre-web/</guid>
+      <guid>https://jeromefv.github.io/posts/guillain-barre-web/</guid>
       <description>I’ve developed varying transformations of documents related to Guillain-Barré Syndrome (GBS) and this is the most recent iteration. This website is officially live and contains a responsive design as well as links to additional external resources. The information is made available for educational and personal use. Take a look at GBS Info to view the website.</description>
     </item>
     
     <item>
       <title>Aeropress Inverted Instructional Aid</title>
-      <link>http://example.org/posts/aeropress-inverted/</link>
+      <link>https://jeromefv.github.io/posts/aeropress-inverted/</link>
       <pubDate>Thu, 12 Mar 2020 17:26:10 -0800</pubDate>
       
-      <guid>http://example.org/posts/aeropress-inverted/</guid>
+      <guid>https://jeromefv.github.io/posts/aeropress-inverted/</guid>
       <description>Instructional Aid for using the AeroPress with the inverted method.   This quick-reference card I developed as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with comparable effort to a French press.
 Using this document, you can cater your preferences of water, coffee, and immersion time to your own taste.</description>
     </item>
     
     <item>
       <title>Guillain-Barré Syndrome Documentation</title>
-      <link>http://example.org/posts/guillain-barre-doc/</link>
+      <link>https://jeromefv.github.io/posts/guillain-barre-doc/</link>
       <pubDate>Thu, 06 Feb 2020 11:26:09 -0800</pubDate>
       
-      <guid>http://example.org/posts/guillain-barre-doc/</guid>
+      <guid>https://jeromefv.github.io/posts/guillain-barre-doc/</guid>
       <description>This informational image introduces a summary of the rare disorder known as Guillain-Barré Syndrome.   The document here is a presentation of information related to Guillain-Barré Syndrome. As few have heard of this disorder, I felt the need to create and provide the most necessary information for those who have experienced the illness in their lives.
 Last year, my mother was diagnosed with this illness and I found very little on the web in an easy to digest manner that would help me understand what my mom was going through.</description>
     </item>

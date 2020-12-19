@@ -3,74 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://jeromefv.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://jeromefv.github.io/posts/</loc>
     <lastmod>2020-06-30T18:12:29-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://jeromefv.github.io/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://jeromefv.github.io/</loc>
     <lastmod>2020-06-30T18:12:29-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/gsod-proposal/</loc>
+    <loc>https://jeromefv.github.io/posts/gsod-proposal/</loc>
     <lastmod>2020-06-30T18:12:29-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/ux-writer-con/</loc>
+    <loc>https://jeromefv.github.io/posts/ux-writer-con/</loc>
     <lastmod>2020-06-30T18:02:44-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/guillain-barre-web/</loc>
+    <loc>https://jeromefv.github.io/posts/guillain-barre-web/</loc>
     <lastmod>2020-05-30T17:33:01-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/aeropress-inverted/</loc>
+    <loc>https://jeromefv.github.io/posts/aeropress-inverted/</loc>
     <lastmod>2020-03-12T17:26:10-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/guillain-barre-doc/</loc>
+    <loc>https://jeromefv.github.io/posts/guillain-barre-doc/</loc>
     <lastmod>2020-02-06T11:26:09-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://jeromefv.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://jeromefv.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
