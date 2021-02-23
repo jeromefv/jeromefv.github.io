@@ -13,7 +13,7 @@
       <pubDate>Thu, 11 Feb 2021 10:56:13 -0800</pubDate>
       
       <guid>https://jeromefv.github.io/posts/specifying-colors/</guid>
-      <description>In this document, Matplotlib documentation explains compatible formats for colors. These inputs are fundamental in configuing data visuals. With more streamlined information on usage and straightforward examples, users of all experience levels benefit from these improvements.
+      <description>In this section, Matplotlib documentation explains compatible formats for colors. These inputs are fundamental in configuing data visuals. With more streamlined information on usage and straightforward examples, users of all experience levels benefit from these improvements.
 One of the challenges of parsing through the original document was differentiating the examples from the explanation. The bullet points only served to separate each type of format accepted. In the text, commas, parentheses, and phrasing connected each type of format to its respective example.</description>
     </item>
     
