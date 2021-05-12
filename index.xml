@@ -6,7 +6,17 @@
     <description>Recent content in Content and Communication on Jerome F. Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 10:56:13 -0800</lastBuildDate><atom:link href="https://jeromefv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 May 2021 16:37:32 -0700</lastBuildDate><atom:link href="https://jeromefv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing Sample API Content</title>
+      <link>https://jeromefv.github.io/posts/api_sample/</link>
+      <pubDate>Tue, 11 May 2021 16:37:32 -0700</pubDate>
+      
+      <guid>https://jeromefv.github.io/posts/api_sample/</guid>
+      <description>Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
+Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&amp;rsquo;s current API docs to base the new content off of this framework and template.</description>
+    </item>
+    
     <item>
       <title>Matplotlib: Improving Specifying Colors</title>
       <link>https://jeromefv.github.io/posts/specifying-colors/</link>
