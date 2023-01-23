@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
 Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&rsquo;s current API docs to base the new content off of this framework and template.">
-    <meta name="generator" content="Hugo 0.79.0" />
+    <meta name="generator" content="Hugo 0.107.0">
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -32,20 +32,16 @@ Develop new documentation for API To start, I evaluated the scope of the new doc
 <meta property="og:description" content="Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
 Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&rsquo;s current API docs to base the new content off of this framework and template." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jeromefv.github.io/posts/api_sample/" />
+<meta property="og:url" content="https://jeromefv.github.io/posts/api_sample/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-11T16:37:32-07:00" />
 <meta property="article:modified_time" content="2021-05-11T16:37:32-07:00" />
+
 <meta itemprop="name" content="Developing Sample API Content">
 <meta itemprop="description" content="Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
-Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&rsquo;s current API docs to base the new content off of this framework and template.">
-<meta itemprop="datePublished" content="2021-05-11T16:37:32-07:00" />
+Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&rsquo;s current API docs to base the new content off of this framework and template."><meta itemprop="datePublished" content="2021-05-11T16:37:32-07:00" />
 <meta itemprop="dateModified" content="2021-05-11T16:37:32-07:00" />
 <meta itemprop="wordCount" content="351">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Developing Sample API Content"/>
 <meta name="twitter:description" content="Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
 Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&rsquo;s current API docs to base the new content off of this framework and template."/>
@@ -158,33 +154,33 @@ Develop new documentation for API To start, I evaluated the scope of the new doc
 <p>To start, I evaluated the scope of the new documentation. I looked at the <a href="https://developer.nylas.com">organization&rsquo;s current API docs</a> to base the new content off of this framework and template. This approach served as both a content audit as well as identifying the appropriate persona for the user.</p>
 <h2 id="audience-assessment">Audience assessment</h2>
 <p>Comparing established documentation to this new content confirmed the audience to consist of developers and their respective background knowledge and experience. I created a functional <code>POST</code> example for a developer to take advantage of and use directly. This example uses valid inputs and an external link to serve as an accurate use case.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl --location --request POST <span style="color:#e6db74">`</span>http://api.nylas.com/pet<span style="color:#e6db74">`</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>--header <span style="color:#e6db74">&#39;Authorization: Bearer &lt;access_token&gt;&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>--header <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>--data-raw <span style="color:#e6db74">&#39;{
-</span><span style="color:#e6db74">    &#34;category&#34;: {
-</span><span style="color:#e6db74">    &#34;name&#34;: &#34;Rescue&#34;,
-</span><span style="color:#e6db74">    &#34;sub&#34;: {
-</span><span style="color:#e6db74">      &#34;prop1&#34;: &#34;local&#34;
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">  },
-</span><span style="color:#e6db74">  &#34;name&#34;: &#34;Guru&#34;,
-</span><span style="color:#e6db74">  &#34;photoUrls&#34;: [
-</span><span style="color:#e6db74">    &#34;https://raw.githubusercontent.com/jigsawpieces/dog-api-images/7f8ca46438aacf6aa6ed23a8c421368180370da1/husky/n02110185_9712.jpg&#34;
-</span><span style="color:#e6db74">  ],
-</span><span style="color:#e6db74">  &#34;tags&#34;: [
-</span><span style="color:#e6db74">    {
-</span><span style="color:#e6db74">      &#34;name&#34;: &#34;husky&#34;
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">  ],
-</span><span style="color:#e6db74">  &#34;status&#34;: &#34;pending_adoption&#34;,
-</span><span style="color:#e6db74">  &#34;petType&#34;: &#34;dog&#34;,
-</span><span style="color:#e6db74">  &#34;scopes&#34;: {
-</span><span style="color:#e6db74">    &#34;write:pets&#34;: &#34;modify pets in your account&#34;,
-</span><span style="color:#e6db74">    &#34;read:pets&#34;: &#34;read your pets&#34;
-</span><span style="color:#e6db74">  }
-</span><span style="color:#e6db74">}&#39;</span>
-</code></pre></div><h2 id="api-build">API build</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl --location --request POST <span style="color:#e6db74">`</span>http://api.nylas.com/pet<span style="color:#e6db74">`</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--header <span style="color:#e6db74">&#39;Authorization: Bearer &lt;access_token&gt;&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--header <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--data-raw <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;category&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;name&#34;: &#34;Rescue&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;sub&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &#34;prop1&#34;: &#34;local&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  },
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;name&#34;: &#34;Guru&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;photoUrls&#34;: [
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;https://raw.githubusercontent.com/jigsawpieces/dog-api-images/7f8ca46438aacf6aa6ed23a8c421368180370da1/husky/n02110185_9712.jpg&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  ],
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;tags&#34;: [
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &#34;name&#34;: &#34;husky&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  ],
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;status&#34;: &#34;pending_adoption&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;petType&#34;: &#34;dog&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;scopes&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;write:pets&#34;: &#34;modify pets in your account&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;read:pets&#34;: &#34;read your pets&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}&#39;</span>
+</span></span></code></pre></div><h2 id="api-build">API build</h2>
 <p>For building the new documentation, I included required elements for attributes, types, and each respective description in a table. In addition, I added a separate table for possible server responses and explanations.</p>
 <p>Using the <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md">suggested reference specifications</a>, I catered this new content to be faithful to the already existing documentation using Markdown and sharing it in <a href="https://github.com/jeromefv/nylas-tech-writer-take-home/blob/villegas_nylas_take_home/villegas.md">GitHub</a>. I maintained simple and straightforward formatting and text and included all elements of the necessary information for allowing a developer to complete the task.</p>
 <h1 id="deliverable">Deliverable</h1>
@@ -217,7 +213,7 @@ Develop new documentation for API To start, I evaluated the scope of the new doc
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jeromefv.github.io" >
-    &copy;  Jerome F. Villegas 2021 
+    &copy;  Jerome F. Villegas 2023 
   </a>
     <div>
 
