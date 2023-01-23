@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Jerome F. Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 16:37:32 -0700</lastBuildDate><atom:link href="https://jeromefv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 12:20:54 -0700</lastBuildDate><atom:link href="https://jeromefv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nylas Google Auth Guide</title>
+      <link>https://jeromefv.github.io/posts/google-auth-guide/</link>
+      <pubDate>Tue, 03 May 2022 12:20:54 -0700</pubDate>
+      
+      <guid>https://jeromefv.github.io/posts/google-auth-guide/</guid>
+      <description>This technical blog post at Nylas is aimed at supporting developers through changes in the way Google handles authentication. I developed this content as a prompt solution to mitigate the impact of potential breaking changes to our product&amp;rsquo;s integration.
+Communicating changes to authentication requirements As our product relies on Google&amp;rsquo;s authentication process, changes that result in additional user input direct affect our developers. My goal is to quickly provide a high concept guide with the two solutions and reduce or avoid friction points.</description>
+    </item>
+    
     <item>
       <title>Developing Sample API Content</title>
       <link>https://jeromefv.github.io/posts/api_sample/</link>
@@ -54,7 +64,7 @@ Getting started in the technical writing field is no easy task. We felt compelle
       <pubDate>Thu, 12 Mar 2020 17:26:10 -0800</pubDate>
       
       <guid>https://jeromefv.github.io/posts/aeropress-inverted/</guid>
-      <description>Instructional Aid for using the AeroPress with the inverted method.   I developed this quick-reference card as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with effort comparable to a French press.
+      <description>Instructional Aid for using the AeroPress with the inverted method. I developed this quick-reference card as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with effort comparable to a French press.
 Using this document, cater your preferences of water, coffee, and immersion time to your own taste. Attach this to an AeroPress as a gift knowing the end result is a wonderful cup of coffee.</description>
     </item>
     
