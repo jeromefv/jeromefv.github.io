@@ -1,61 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://jeromefv.github.io/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/</loc>
-    <lastmod>2022-05-03T12:20:54-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/</loc>
-    <lastmod>2022-05-03T12:20:54-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/google-auth-guide/</loc>
-    <lastmod>2022-05-03T12:20:54-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/api_sample/</loc>
-    <lastmod>2021-05-11T16:37:32-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/specifying-colors/</loc>
-    <lastmod>2021-02-11T10:56:13-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/guillain-barre-web/</loc>
-    <lastmod>2020-07-30T17:33:01-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/ux-writer-con/</loc>
-    <lastmod>2020-06-30T18:02:44-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/posts/aeropress-inverted/</loc>
-    <lastmod>2020-03-12T17:26:10-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jeromefv.github.io/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/about/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/</loc>
+            <lastmod>2022-11-14T21:02:02-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/contact/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/</loc>
+            <lastmod>2022-11-14T21:02:02-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/docs-bulletin-board/</loc>
+            <lastmod>2022-11-14T21:02:02-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/google-auth-guide/</loc>
+            <lastmod>2021-11-03T12:20:54-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/api_sample/</loc>
+            <lastmod>2021-05-11T16:37:32-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/specifying-colors/</loc>
+            <lastmod>2021-02-11T10:56:13-08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/guillain-barre-web/</loc>
+            <lastmod>2020-07-30T17:33:01-08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/ux-writer-con/</loc>
+            <lastmod>2020-06-30T18:02:44-08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/posts/aeropress-inverted/</loc>
+            <lastmod>2020-03-12T17:26:10-08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/categories/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://jeromefv.github.io/tags/</loc>
+        </url>
+        
+    
 </urlset>

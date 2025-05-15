@@ -1,72 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content and Communication on Jerome F. Villegas</title>
+    <title>jerome f. villegas → technical writer</title>
     <link>https://jeromefv.github.io/</link>
-    <description>Recent content in Content and Communication on Jerome F. Villegas</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on jerome f. villegas → technical writer</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2022 12:20:54 -0700</lastBuildDate><atom:link href="https://jeromefv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 21:02:02 -0700</lastBuildDate>
+    <atom:link href="https://jeromefv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Docs Bulletin Board</title>
+      <link>https://jeromefv.github.io/posts/docs-bulletin-board/</link>
+      <pubDate>Mon, 14 Nov 2022 21:02:02 -0700</pubDate>
+      <guid>https://jeromefv.github.io/posts/docs-bulletin-board/</guid>
+      <description>&lt;h2 id=&#34;documentation-strategy&#34;&gt;Documentation strategy&lt;/h2&gt;&#xA;&lt;p&gt;As the Documentation Strategist at Twitter working with the Developer Relations team, I needed a single location to act as the source of truth for all things docs. This space would serve as a way for leadership and colleagues to see any upcoming work at a glance. It needed to be updated regularly and be a resource to the team if I weren&amp;rsquo;t available.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jeromefv.github.io/images/docs_bulletin_1.png&#34; alt=&#34;Docs Bulletin Board top page preview&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Nylas Google Auth Guide</title>
       <link>https://jeromefv.github.io/posts/google-auth-guide/</link>
-      <pubDate>Tue, 03 May 2022 12:20:54 -0700</pubDate>
-      
+      <pubDate>Wed, 03 Nov 2021 12:20:54 -0700</pubDate>
       <guid>https://jeromefv.github.io/posts/google-auth-guide/</guid>
-      <description>This technical blog post at Nylas is aimed at supporting developers through changes in the way Google handles authentication. I developed this content as a prompt solution to mitigate the impact of potential breaking changes to our product&amp;rsquo;s integration.
-Communicating changes to authentication requirements As our product relies on Google&amp;rsquo;s authentication process, changes that result in additional user input direct affect our developers. My goal is to quickly provide a high concept guide with the two solutions and reduce or avoid friction points.</description>
+      <description>&lt;p&gt;This technical blog post at Nylas is aimed at supporting developers through changes in the way Google handles authentication. I developed this content as a prompt solution to mitigate the impact of potential breaking changes to our product&amp;rsquo;s integration.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nylas.com/blog/google-authentication-guide/&#34;&gt;&lt;img src=&#34;https://jeromefv.github.io/images/google_auth_guide.png&#34; alt=&#34;Screenshot of landing page for guide&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;communicating-changes-to-authentication-requirements&#34;&gt;Communicating changes to authentication requirements&lt;/h1&gt;&#xA;&lt;p&gt;As our product relies on Google&amp;rsquo;s authentication process, changes that result in additional user input direct affect our developers. My goal is to quickly provide a high concept guide with the two solutions and reduce or avoid friction points.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing Sample API Content</title>
       <link>https://jeromefv.github.io/posts/api_sample/</link>
       <pubDate>Tue, 11 May 2021 16:37:32 -0700</pubDate>
-      
       <guid>https://jeromefv.github.io/posts/api_sample/</guid>
-      <description>Incorporating SME API notes for documentation In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new Pet feature needed documentation to show how to use it and act as reference for parameters and expected responses.
-Develop new documentation for API To start, I evaluated the scope of the new documentation. I looked at the organization&amp;rsquo;s current API docs to base the new content off of this framework and template.</description>
+      <description>&lt;h2 id=&#34;incorporating-sme-api-notes-for-documentation&#34;&gt;Incorporating SME API notes for documentation&lt;/h2&gt;&#xA;&lt;p&gt;In this sample API exercise, the notes below from an engineer were guidelines for building new content. This new &lt;code&gt;Pet&lt;/code&gt; feature needed documentation to show how to use it and act as reference for parameters and expected responses.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://jeromefv.github.io/images/engineer_api_notes.png&#34; alt=&#34;Summary of API notes from engineer&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;develop-new-documentation-for-api&#34;&gt;Develop new documentation for API&lt;/h2&gt;&#xA;&lt;p&gt;To start, I evaluated the scope of the new documentation. I looked at the &lt;a href=&#34;https://developer.nylas.com&#34;&gt;organization&amp;rsquo;s current API docs&lt;/a&gt; to base the new content off of this framework and template. This approach served as both a content audit as well as identifying the appropriate persona for the user.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Matplotlib: Improving Specifying Colors</title>
       <link>https://jeromefv.github.io/posts/specifying-colors/</link>
       <pubDate>Thu, 11 Feb 2021 10:56:13 -0800</pubDate>
-      
       <guid>https://jeromefv.github.io/posts/specifying-colors/</guid>
-      <description>In this section, Matplotlib documentation explains compatible formats for colors. These inputs are fundamental in configuing data visuals. With more streamlined information on usage and straightforward examples, users of all experience levels benefit from these improvements.
-One of the challenges of parsing through the original document was differentiating the examples from the explanation. The bullet points only served to separate each type of format accepted. In the text, commas, parentheses, and phrasing connected each type of format to its respective example.</description>
+      <description>&lt;p&gt;In this section, &lt;a href=&#34;https://matplotlib.org/tutorials/colors/colors.html#sphx-glr-tutorials-colors-colors-py&#34;&gt;Matplotlib documentation&lt;/a&gt; explains compatible formats for colors. These inputs are fundamental in configuing data visuals. With more streamlined information on usage and straightforward examples, users of all experience levels benefit from these improvements.&lt;/p&gt;&#xA;&lt;p&gt;One of the challenges of parsing through the original document was differentiating the examples from the explanation. The bullet points only served to separate each type of format accepted. In the text, commas, parentheses, and phrasing connected each type of format to its respective example. From a visual perspective, this had not been an effective way to communicate these important elements.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guillain-Barré Syndrome Website</title>
       <link>https://jeromefv.github.io/posts/guillain-barre-web/</link>
       <pubDate>Thu, 30 Jul 2020 17:33:01 -0800</pubDate>
-      
       <guid>https://jeromefv.github.io/posts/guillain-barre-web/</guid>
-      <description>Here, I built and launched a website about the medical disorder known as Guillain-Barré Syndrome (GBS).
-I introduce and provide information about GBS in simple and straightforward terminology. Most content about this disorder uses highly specialized vocabulary catered to medical professionals. These obstacles make it challenging for patients and loved ones to understand this challenging and complex issue.
-My aim as a technical writer is to increase accessibility for this subject and related topics.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/gbs-info/&#34;&gt;&lt;img src=&#34;https://jeromefv.github.io/images/gbs_banner.png&#34; alt=&#34;GBS Info Banner&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here, I built and launched a website about the medical disorder known as Guillain-Barré Syndrome (GBS).&lt;/p&gt;&#xA;&lt;p&gt;I introduce and provide information about GBS in simple and straightforward terminology. Most content about this disorder uses highly specialized vocabulary catered to medical professionals. These obstacles make it challenging for patients and loved ones to understand this challenging and complex issue.&lt;/p&gt;&#xA;&lt;p&gt;My aim as a technical writer is to increase accessibility for this subject and related topics. I use general sentences and language appropriate for all audiences. I also produced simple and easy to understand supporting visuals. Each image has captions, labels, and alt text for users with various needs. Throughout the website, I detail specifics of GBS with approachability and concision.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Key Points from the UX Writer Conference “Advice for New Writers” Session</title>
       <link>https://jeromefv.github.io/posts/ux-writer-con/</link>
       <pubDate>Tue, 30 Jun 2020 18:02:44 -0800</pubDate>
-      
       <guid>https://jeromefv.github.io/posts/ux-writer-con/</guid>
-      <description>Advice for New Writers Session Jeremiah Telzrow and I collaborated on an article highlighting quality advice from UX/tech writers and content strategists at the UX Writer Conference held virtually on June 9th and 10th. We focused on collecting and referencing the suggestions that people had and produced visuals to make finding that content easier.
-Getting started in the technical writing field is no easy task. We felt compelled to share the resources we’ve learned with others who feel the same.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://jeromefv.github.io/images/ux_visual_1.png&#34; alt=&#34;technical communication triangle&#34;&gt;&lt;br&gt;&#xA;&lt;img src=&#34;https://jeromefv.github.io/images/ux_quote_1.png&#34; alt=&#34;technical communication quote&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;advice-for-new-writers-session&#34;&gt;&lt;a href=&#34;https://jeremiahtelzrow.wordpress.com/uxwriterconference/&#34;&gt;Advice for New Writers Session&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jeremiah-telzrow-996265a/&#34;&gt;Jeremiah Telzrow&lt;/a&gt; and I collaborated on an article highlighting quality advice from UX/tech writers and content strategists at the &lt;a href=&#34;https://uxwriterconference.com/&#34;&gt;UX Writer Conference&lt;/a&gt; held virtually on June 9th and 10th. We focused on collecting and referencing the suggestions that people had and produced visuals to make finding that content easier.&lt;/p&gt;&#xA;&lt;p&gt;Getting started in the technical writing field is no easy task. We felt compelled to share the resources we’ve learned with others who feel the same. See the article at &lt;a href=&#34;https://jeremiahtelzrow.wordpress.com/uxwriterconference/&#34;&gt;Jeremiah’s website&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Aeropress Inverted Instructional Aid</title>
       <link>https://jeromefv.github.io/posts/aeropress-inverted/</link>
       <pubDate>Thu, 12 Mar 2020 17:26:10 -0800</pubDate>
-      
       <guid>https://jeromefv.github.io/posts/aeropress-inverted/</guid>
-      <description>Instructional Aid for using the AeroPress with the inverted method. I developed this quick-reference card as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with effort comparable to a French press.
-Using this document, cater your preferences of water, coffee, and immersion time to your own taste. Attach this to an AeroPress as a gift knowing the end result is a wonderful cup of coffee.</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://jeromefv.github.io/images/aeropress_inverted_process.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Instructional Aid for using the AeroPress with the inverted method.&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I developed this quick-reference card as a tool to aid people using the AeroPress. For those looking for a great and simple brewing method, the AeroPress opens up many possibilities of amazing coffee with effort comparable to a French press.&lt;/p&gt;&#xA;&lt;p&gt;Using this document, cater your preferences of water, coffee, and immersion time to your own taste. Attach this to an AeroPress as a gift knowing the end result is a wonderful cup of coffee.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
