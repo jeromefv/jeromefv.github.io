@@ -6,8 +6,15 @@
     <description>Recent content in Posts on jerome f. villegas → technical writer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2022 21:02:02 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 22:17:07 -0700</lastBuildDate>
     <atom:link href="https://jeromefv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Okta Integration Guide</title>
+      <link>https://jeromefv.github.io/posts/okta_integration/</link>
+      <pubDate>Tue, 08 Apr 2025 22:17:07 -0700</pubDate>
+      <guid>https://jeromefv.github.io/posts/okta_integration/</guid>
+      <description>&lt;p&gt;This how-to guide specifies all the required steps to implement Beyond Identity&amp;rsquo;s phishing-resistant multifactor authentication (PRMFA) with Okta&amp;rsquo;s IAM platform.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.beyondidentity.com/docs/access-control/applications/okta/&#34;&gt;&lt;img src=&#34;https://jeromefv.github.io/images/okta_overview.png&#34; alt=&#34;Screenshot of landing page for guide&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;documentation-situation-and-task-at-hand&#34;&gt;Documentation situation and task at hand&lt;/h2&gt;&#xA;&lt;p&gt;When I had started at Beyond Identity, the original guide was outdated and no longer had the correct steps to implement the product with Okta&amp;rsquo;s platform. In addition, all of the video recordings and screenshots were different due to changes to the UI across both company products. Internal deployment engineers and product marketing managers weren&amp;rsquo;t able to use the documentation because it wasn&amp;rsquo;t relevant or helpful anymore.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Twitter Docs Bulletin Board</title>
       <link>https://jeromefv.github.io/posts/docs-bulletin-board/</link>
